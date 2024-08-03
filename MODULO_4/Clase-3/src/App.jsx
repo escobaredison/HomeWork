@@ -11,7 +11,7 @@ function App() {
       <Nombre name = 'Monky D Luffy'/>
       <Descripcion descripcion = 'Es apodado como "Sombrero de Paja"'/>
       <Rol />
-    </div>
+    </div> 
   )
 }
 
