@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+.titulo {
+  font-family: "Piedra", serif;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-card {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
