@@ -1,7 +1,7 @@
 import React from 'react';
-import Title from '../title/title';
+import Title from '../title/title.jsx';
 import Image from '../imagen/image.jsx';
-import Details from '../details/details';
+import Details from '../details/details.jsx';
 import Status from '../status/status.jsx';
 import './characterCard.css';
 

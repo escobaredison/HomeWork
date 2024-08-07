@@ -33,10 +33,16 @@ function App() {
               image={characters.image}
               status={characters.status} 
               name={characters.name}
-              genre={characters.genre}
+              genre={characters.species}
               />
             ))
           }
+        </div>
+        <div className='bos-button'>
+          <button>«</button>
+          <button>1</button>
+          <button>2</button>
+          <button>»</button>
         </div>
       </div>
     </div>
