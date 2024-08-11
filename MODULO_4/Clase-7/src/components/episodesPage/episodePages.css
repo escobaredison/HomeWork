@@ -1,0 +1,41 @@
+.episode {
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 14px;
+    background-color: #f44343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-episode {
+    width: 320px;
+    height: 160px;
+    border-radius: 10px;
+    border: 2px solid black ;
+    background-color: whitesmoke;
+    display: grid;
+    align-items: flex-end;
+}
+
+.nombre {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+}
+
+.temporada {
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+    font-size:large;
+    font-weight: 600;
+}
+
+.descripcion-epi { 
+    color: rgb(74, 71, 71);
+    font-size:small;
+    font-weight: 600;
+}
