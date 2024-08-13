@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './homePage.css';
-import CharacterCard from '../characterCard/characterCard';
 import { Link } from 'react-router-dom';
 
 function HomePage() {
@@ -8,7 +7,7 @@ function HomePage() {
     return (
         <div className='home-centrar'>
             <div className='titulo'>
-                <img src="./public/Rick_and_Morty.webp" alt="imagen" />
+                <img src="./public/Rick_and_Morty.jpg" alt="imagen" />
             </div>
             <div className='box-enlaces'>
                 <Link className='enlaces' to="/">
