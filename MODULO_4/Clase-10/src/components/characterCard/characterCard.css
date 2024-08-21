@@ -1,0 +1,33 @@
+.img{
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card {
+    border: 1px solid #000000aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid rgb(105, 81, 21);
+    max-width: 300px;
+    margin: 14px;
+    background-color:  #25e411 ;
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.nombre {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    color: black;
+    margin-top: 10PX;
+}
+
+.descripcion { 
+    color: grey;
+    font-size:small;
+    font-weight: 600;
+    gap: 5%;
+    margin-bottom: 15px;
+}
