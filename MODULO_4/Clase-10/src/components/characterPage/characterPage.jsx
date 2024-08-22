@@ -60,8 +60,8 @@ function CharacterPage() {
         }
     };
 
-    // Lógica de filtrado local
-    const filteredCharacters = charactersList.filter(character => 
+    // Lógica de filtrado de busqueda
+    const filteredCharacters = charactersList.filter(character =>
         query === '' || character.name.toLowerCase().includes(query.toLowerCase())
     );
 
@@ -86,17 +86,17 @@ function CharacterPage() {
             <div className='search-name'>
                 <div >
                     <form onSubmit={handleSubmit}>
-                        <label htmlFor="Search">Buscar</label>
-                        <input type="text" value={query} onChange={(e => setQuery(e.target.value))} />
+                        <input
+                            type="text"
+                            placeholder='Ingresa el nombre'
+                            value={query} onChange={(e => setQuery(e.target.value))}
+                        />
                         <button type='submit'>BUSCAR</button>
-                        {/* return nameFilter === '' 
-                            ? character 
-                            : character.name.toLowerCase().includes(nameFilter.toLowerCase()); */}
                     </form>
                 </div>
             </div>
             {
-                
+
             }
             <div className='list-card'>
                 {filteredCharacters.length > 0 && filteredCharacters.map((characters) => {
