@@ -68,7 +68,7 @@ function CharacterPage() {
     return (
         <div>
             <div className='titulo'>
-                <img src="./public/Rick_and_Morty.webp" alt="imagen" />
+                <img src="./Rick_and_Morty.webp" alt="imagen" />
             </div>
             <div className='box-enlaces'>
                 <Link className='enlaces' to="/">
