@@ -20,6 +20,4 @@ for (let i = 1; i < estudiantes.length; i++) {
         mejorEstudiante = estudiantes[i];
     }
 }
-
 console.log(`El estudiante con el mayor promedio es ${mejorEstudiante.nombre} con un promedio de ${mejorEstudiante.promedio}.`);
-// Salida: "El estudiante con el mayor promedio es Pablo con un promedio de 9.5."
