@@ -1,0 +1,16 @@
+{
+  "name": "project_calculadora",
+  "version": "1.0.0",
+  "description": "Implementa las funciones necesarias para realizar operaciones matemáticas básicas, como suma, resta, multiplicación y división.",
+  "main": "calculadora.js",
+  "type": "module",
+  "scripts": {
+    "start": "node calculadora.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EdisonEscobar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
