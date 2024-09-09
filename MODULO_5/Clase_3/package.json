@@ -1,0 +1,16 @@
+{
+  "name": "project_tarea_3",
+  "version": "1.0.0",
+  "description": "Crear una Función Asíncrona para esperar la Cantidad de Segundos Especificada.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EdisonEscobar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
