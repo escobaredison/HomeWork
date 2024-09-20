@@ -1,0 +1,13 @@
+{
+  "name": "generar_numero",
+  "version": "1.0.0",
+  "description": "Generador de Numeros y detector de numeros pares",
+  "main": "generator.js",
+  "type": "module",
+  "scripts": {
+    "generate-file": "node generator.js",
+    "find-even-number": "node find.js"
+  },
+  "author": "EdisonEscobar",
+  "license": "ISC"
+}
